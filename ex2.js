@@ -5,6 +5,10 @@
 const names = ["John", "Sarah", "Mike"];
 let people = [];
 names.forEach((name) => {
+    let person = {
+        nombre:name
+    };
+    people.push(person);
     // 1 línea de código
 });
 console.log(people); // Output: [{name: "John"}, {name: "Sarah"}, {name: "Mike"}]
